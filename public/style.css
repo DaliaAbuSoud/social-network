@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(41, 41, 41);
+    /* height: 100vh; */
+}
+
+.profilePicContainer img {
+    max-height: 71px;
+    max-width: auto;
+    padding: 8px 12px;
+}
+
+.logoContainer img {
+    max-height: 65px;
+    max-width: auto;
+}
+.navbar.is-dark {
+    height: 75px;
+}
+.mainNavbar {
+    margin-bottom: 40px;
+    background-color: rgb(61, 61, 61);
+}
+.navbar-item.navbarItem {
+    color: whitesmoke;
+}
+.navbar-item.navbarItem:hover {
+    border-bottom: 1px solid #66d2b3;
+}
+.bioContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.uploaderFormTitle,
+.uploaderForm label,
+.uploaderForm button {
+    margin: 20px;
+}
+.button.is-light:hover {
+    background-color: gray;
+    color: whitesmoke;
+}
+
+.uploaderForm h1 {
+    font-size: 20px;
+}
+.bioTextarea {
+    margin-bottom: 20px;
+    border: 17px solid #00b89c29;
+    background-color: white;
+}
+.bioTextarea:active,
+.bioTextarea:focus,
+.bioTextarea:hover {
+    border: 17px solid #00d1b273;
+}
+.button.is-primary.is-outlined:hover {
+    background-color: transparent;
+    border-color: #00d1b2;
+    color: #00d1b2;
+}
+.column.is-one-fifth {
+    margin-left: 12px;
+}
+
+.userData p,
+.experiences {
+    color: whitesmoke;
+    margin: 0px 0px 10px 0px;
+    justify-content: center;
+}
+.subtitle.is-6 {
+    margin: 0;
+}
+.subtitle.is-6.icons {
+    margin: 20px 0px 0px 0px;
+}
+.editBioBtn {
+    margin: 0px 0px 20px 10px;
+    padding: 0;
+    width: 60px;
+    height: 20px;
+}
+
+.button.is-text:hover {
+    background-color: transparent;
+    color: #1c78c7;
+}
+
+.icon {
+    margin-right: 10px;
+}
+.icon:hover {
+    color: white;
+}
+.bioSection {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px 10px 0px;
+}
+.uploaderForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchContainer input {
+    margin-bottom: 40px;
+}
+.searchContent {
+    padding-left: 30px;
+}
+.searchResultsData strong {
+    font-weight: 400;
+    font-size: 18px;
+}
+.dropDown {
+    margin-left: 24px;
+}
+.chatBox {
+    height: 300px;
+    width: 400px;
+    overflow-y: scroll;
+}
